@@ -10,10 +10,26 @@ module.exports = {
     mumbai: {
       url: process.env.NODE_URL,
       accounts: ["0x" + process.env.PRIVATE_KEY] 
+    },
+    neonevm: {
+      url: process.env.NODE_URL,
+      accounts: ["0x" + process.env.PRIVATE_KEY] 
     }
   },
   etherscan: {
-    apiKey: process.env.API_KEY,
-  },
+    apiKey: {
+      neonevm: "test"
+    },
+    customChains: [
+      {
+        network: "neonevm",
+        chainId: 245022926,
+        urls: {
+          apiURL: "https://devnet-api.neonscan.org/hardhat/verify",
+          browserURL: "https://neonscan.org"
+        }
+      }
+    ]
+  }
  
 };
