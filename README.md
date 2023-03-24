@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Mumbai Kitty Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+[https://mumbai.polygonscan.com/address/0xd1e95B4AbF85AfF4aa8ed74eAbd7c6C6FE29F436](https://mumbai.polygonscan.com/address/0xd1e95B4AbF85AfF4aa8ed74eAbd7c6C6FE29F436)
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
